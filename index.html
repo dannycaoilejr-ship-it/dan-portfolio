@@ -1,166 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Danny Caoile | Java Developer</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome Icons -->
+    <!-- Font Awesome -->
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<nav>
+    <!-- ================= NAVBAR ================= -->
 
-    <h2>Danny.</h2>
+    <nav>
 
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+        <div class="logo">
+            Danny<span>.</span>
+        </div>
 
-</nav>
+        <ul>
 
+            <li><a href="#home">Home</a></li>
 
-<section class="hero">
+            <li><a href="#about">About</a></li>
 
-<div class="hero-text">
+            <li><a href="#skills">Skills</a></li>
 
-<h4>Hello, I'm</h4>
+            <li><a href="#projects">Projects</a></li>
 
-<h1>Danny Caoile</h1>
+            <li><a href="#contact">Contact</a></li>
 
-<h3>Aspiring Java Developer</h3>
+        </ul>
 
-<p>
-Passionate about building software, solving problems, and creating modern web applications.
-Currently learning Java Programming, Web Development, and continuously improving my technical skills.
-</p>
+    </nav>
 
-<a href="#projects" class="btn">
-View My Projects
-</a>
+    <!-- ================= HERO ================= -->
 
-</div>
+    <section class="hero" id="home">
 
-</section>
+        <div class="hero-left">
 
+            <h3>Hello, I'm</h3>
 
-<section id="about">
+            <h1>Danny Caoile</h1>
 
-<h2>About Me</h2>
+            <h2>Aspiring Java Developer</h2>
 
-<p>
+            <p>
 
-I am an aspiring Java Developer from the Philippines with a strong passion for programming and technology.
+                Passionate about software development, problem solving,
+                and creating modern applications using Java and Web Technologies.
 
-I enjoy creating applications, learning new programming languages, and solving real-world problems through software.
+            </p>
 
-Currently, I am improving my skills in Java, HTML, CSS, JavaScript, Git, and GitHub while building personal projects to strengthen my portfolio.
+            <div class="buttons">
 
-</p>
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
 
-</section>
+                <a href="#contact" class="btn-outline">
+                    Contact Me
+                </a>
 
+            </div>
 
-<section id="skills">
+        </div>
 
-<h2>Technical Skills</h2>
+        <div class="hero-right">
 
-<div class="cards">
+            <div class="profile-card">
 
-<div class="card">
-<i class="fa-brands fa-java"></i>
-<h3>Java</h3>
-</div>
+                <img src="images/profile.png" alt="Profile">
 
-<div class="card">
-<i class="fa-brands fa-html5"></i>
-<h3>HTML5</h3>
-</div>
+            </div>
 
-<div class="card">
-<i class="fa-brands fa-css3-alt"></i>
-<h3>CSS3</h3>
-</div>
+        </div>
 
-<div class="card">
-<i class="fa-brands fa-js"></i>
-<h3>JavaScript</h3>
-</div>
+    </section>
 
-<div class="card">
-<i class="fa-brands fa-github"></i>
-<h3>GitHub</h3>
-</div>
+    <!-- ================= ABOUT ================= -->
 
-</div>
+    <section id="about">
 
-</section>
+        <h2 class="title">About Me</h2>
 
+        <div class="about-container">
 
-<section id="projects">
+            <p>
 
-<h2>Featured Projects</h2>
+                I am an aspiring Java Developer from the Philippines.
 
-<div class="cards">
+                I enjoy creating software that solves real-world problems,
+                learning new technologies,
+                and continuously improving my programming skills.
 
-<div class="card">
+            </p>
 
-<h3>Student Record System</h3>
+            <p>
 
-<p>
-Java Console Application that manages student information and grades.
-</p>
+                Currently learning:
 
-</div>
+            </p>
 
-<div class="card">
+            <ul>
 
-<h3>Printing Shop Website</h3>
+                <li>Java Programming</li>
 
-<p>
-Responsive business website using HTML & CSS.
-</p>
+                <li>Object-Oriented Programming</li>
 
-</div>
+                <li>HTML & CSS</li>
 
-<div class="card">
+                <li>JavaScript</li>
 
-<h3>Portfolio Website</h3>
+                <li>Git & GitHub</li>
 
-<p>
-Personal portfolio hosted on GitHub Pages.
-</p>
+            </ul>
 
-</div>
+        </div>
 
-</div>
+    </section>
 
-</section>
+    <!-- ================= SKILLS ================= -->
 
+    <section id="skills">
 
-<section id="contact">
+        <h2 class="title">
 
-<h2>Contact Me</h2>
+            Technical Skills
 
-<p>Email : your@email.com</p>
+        </h2>
 
-<p>GitHub : github.com/yourusername</p>
+        <div class="skill-grid">
 
-</section>
+            <div class="skill-card">
 
-<script src="js/script.js"></script>
+                <i class="fa-brands fa-java"></i>
+
+                <h3>Java</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-html5"></i>
+
+                <h3>HTML5</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-css3-alt"></i>
+
+                <h3>CSS3</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-js"></i>
+
+                <h3>JavaScript</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-github"></i>
+
+                <h3>GitHub</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-database"></i>
+
+                <h3>MySQL</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+
+        <h2 class="title">
+
+            Featured Projects
+
+        </h2>
+
+        <div class="projects">
+
+            <div class="project-card">
+
+                <h3>
+
+                    Student Record System
+
+                </h3>
+
+                <p>
+
+                    Java Console Application
+
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>
+
+                    Portfolio Website
+
+                </h3>
+
+                <p>
+
+                    HTML CSS JavaScript
+
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>
+
+                    Printing Shop Website
+
+                </h3>
+
+                <p>
+
+                    Responsive Business Website
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <h2 class="title">
+
+            Contact
+
+        </h2>
+
+        <div class="contact-box">
+
+            <p>
+
+                <i class="fa-solid fa-envelope"></i>
+
+                your@email.com
+
+            </p>
+
+            <p>
+
+                <i class="fa-brands fa-github"></i>
+
+                github.com/yourusername
+
+            </p>
+
+            <p>
+
+                <i class="fa-brands fa-facebook"></i>
+
+                Facebook Profile
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        © 2026 Danny Caoile | Portfolio
+
+    </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
