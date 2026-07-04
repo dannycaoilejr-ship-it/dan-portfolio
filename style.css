@@ -91,16 +91,11 @@ nav a:hover{
 /* ===================================
  HERO
 =================================== */
-.video-container{
+.hero-right video{
     width:100%;
-    max-width:800px;
-    margin:auto;
-}
-
-.video-container iframe,
-.video-container video{
-    width:100%;
-    border-radius:15px;
+    max-width:400px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 .hero{
 
